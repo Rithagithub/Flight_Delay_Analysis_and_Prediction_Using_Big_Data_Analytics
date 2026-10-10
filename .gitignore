@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.crc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# PySpark / Hadoop temporary directories & logs
+metastore_db/
+derby.log
+spark-warehouse/
+.sparkStaging/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+=================================================================
+   FLIGHT DELAY MODEL EVALUATION REPORT (PySpark MLlib)
+=================================================================
+
+Algorithm           : Random Forest Classifier (Balanced Weights)
+Trees & Max Depth   : 50 Trees, Max Depth 8
+Training Sample Size: 215,393 flights (80%)
+Testing Sample Size : 53,631 flights (20%)
+
+Accuracy            : 0.6006 (60.06%)
+Weighted Precision  : 0.7748 (77.48%)
+Weighted Recall     : 0.6006 (60.06%)
+Weighted F1-Score   : 0.6419 (64.19%)
+ROC-AUC             : 0.6994
+PR-AUC              : 0.3497
+
+Confusion Matrix Breakdown:
+  TP (Delayed as Delayed): 7,490
+  TN (On-Time as On-Time): 24,723
+  FP (On-Time as Delayed): 18,443
+  FN (Delayed as On-Time): 2,975

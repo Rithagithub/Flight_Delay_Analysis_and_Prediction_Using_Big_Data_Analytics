@@ -1,0 +1,19 @@
+{
+    "model_name": "PySpark MLlib RandomForestClassifier",
+    "num_trees": 50,
+    "max_depth": 8,
+    "train_records": 215393,
+    "test_records": 53631,
+    "accuracy": 0.6006,
+    "precision": 0.7748,
+    "recall": 0.6006,
+    "f1_score": 0.6419,
+    "roc_auc": 0.6994,
+    "pr_auc": 0.3497,
+    "confusion_matrix": {
+        "true_positives": 7490,
+        "false_positives": 18443,
+        "true_negatives": 24723,
+        "false_negatives": 2975
+    }
+}
